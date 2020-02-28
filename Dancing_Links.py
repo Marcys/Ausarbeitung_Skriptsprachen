@@ -1,3 +1,5 @@
+#Quelle: https://github.com/Varato/DancingLinks_SudokuSolver/blob/master/dancing.py
+
 import numpy as np
 from Ausarbeitung.Ausarbeitung.spiders.CSP import sudoku_array
 import time
