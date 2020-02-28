@@ -137,7 +137,6 @@ def search(root):
 				solution.append(node.C.N)
 				node = node.R
 			solutions.append(solution)
-			# print(solution)
 		return 0
 
 	c = root.R
@@ -179,7 +178,6 @@ def sudoku2exact_cover(A):
 				for n in valid_list(A, i, j):
 					exact_cover_mat.append(row_generator(n, i, j))
 	exact_cover_mat = np.array(exact_cover_mat)
-	print(exact_cover_mat)
 	return exact_cover_mat
 
 def row_generator(n, i, j):
