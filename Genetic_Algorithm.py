@@ -1,7 +1,3 @@
-#Quelle: https://github.com/philipperoubert/sudokuSolver/blob/master/sudoku.py
-
-
-
 
 #Möglichkeit um einen Randomisierungsfaktor einzubringen z.B. beim Offspring erstellen
 from random import choice, random, randint
